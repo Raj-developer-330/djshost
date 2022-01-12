@@ -42,7 +42,7 @@ WELCOMECHAN.send(`Welcome to the server, ${member.user.username}!`,attachment);
 
 
 bot.on('ready', () => {
-bot.user.setActivity('<help', { type: 'PLAYING' })
+bot.user.setActivity('>help', { type: 'PLAYING' })
 
 
   console.log(`Logged in as ${bot.user.tag}!`);
